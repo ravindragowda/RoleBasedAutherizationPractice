@@ -32,8 +32,9 @@ package com.springBootOTPGenerator.message;
 			return content;
 			
 	}
-	public String getTemplate(Map<String, String> replacements) {
-		
+	public String getTemplate(Map<String, String> replacements) 
+	{
+		System.out.println("Get Template has fallows the listed");
 			String cTemplate = this.template;
 			//Replace the String 
 			for (Map.Entry<String, String> entry : replacements.entrySet()) {

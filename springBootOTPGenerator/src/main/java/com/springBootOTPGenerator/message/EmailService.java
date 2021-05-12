@@ -28,7 +28,7 @@ public class EmailService {
 
 	        javaMailSender.send(msg);
 	        
-	        System.out.println("The Email Service has been Noted Here");
+	        System.out.println("The Notified Email Service has below the path");
    }
 	
 }
