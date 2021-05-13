@@ -27,6 +27,8 @@ public class EmailService {
 	        helper.setText(message, true);
 
 	        javaMailSender.send(msg);
+	        
+	        System.out.println("The Notified Email Service has below the path");
    }
 	
 }

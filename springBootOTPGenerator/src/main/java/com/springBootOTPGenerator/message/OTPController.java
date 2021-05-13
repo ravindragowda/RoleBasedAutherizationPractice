@@ -48,6 +48,8 @@ return "otppage";
 @RequestMapping(value ="/validateOtp", method = RequestMethod.GET)
 public @ResponseBody String validateOtp(@RequestParam("otpnum") int otpnum){
 	
+	System.out.println("the validate otp has fallows the method here");
+	
 		final String SUCCESS = "Entered Otp is valid";
 		final String FAIL = "Entered Otp is NOT valid. Please Retry!";
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication(); 
